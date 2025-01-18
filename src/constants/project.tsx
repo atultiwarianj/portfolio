@@ -24,6 +24,28 @@ interface IProjectData {
 
 export const projectData: IProjectData[] = [
   {
+    name: "Travel App",
+    category: "FULLSTACK",
+    liveLink: "https://play.google.com/store/apps/details?id=com.utkrishtusssm.app",
+    codeLink: "/",
+    img: require("@/assets/projects/tour.png"),
+    techUsed: (
+      <div className="mt-2 flex gap-3 ">
+        <FaReact className=" w-6 h-6 text-[#61cdff] hover:scale-125 duration-300" />
+        <SiTypescript className=" w-6 h-6 text-[#61cdff] hover:scale-125 duration-300" />
+        <SiJavascript className=" w-6 h-6 text-[#eede4c] hover:scale-125 duration-300" />
+        <SiExpress className=" w-6 h-6 text-[#fff] hover:scale-125 duration-300" />
+        <SiMongodb className=" w-6 h-6 text-[#4faf45] hover:scale-125 duration-300" />
+        <SiTailwindcss className=" w-6 h-6 text-[#61cdff] hover:scale-125 duration-300" />
+        <Image
+          src={require("@/assets/technologies/redux.png")}
+          alt="sanity"
+          className="w-6 h-6 hover:scale-125 duration-300"
+        />
+      </div>
+    ),
+  },
+  {
     name: "Utkrist App",
     category: "FRONTEND",
     liveLink: "https://play.google.com/store/apps/details?id=com.utkrishtusssm.app",
