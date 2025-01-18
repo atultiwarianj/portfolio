@@ -26,7 +26,7 @@ export const projectData: IProjectData[] = [
   {
     name: "Travel App",
     category: "FULLSTACK",
-    liveLink: "https://play.google.com/store/apps/details?id=com.utkrishtusssm.app",
+    liveLink: "https://www.tourcourt.com",
     codeLink: "/",
     img: require("@/assets/projects/tour.png"),
     techUsed: (
